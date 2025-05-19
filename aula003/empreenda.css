@@ -1,0 +1,38 @@
+body{
+    background-color: lightseagreen;
+    border: 2em solid black;
+    padding: 5em;
+    margin: 0;
+    height: 100vh;
+}
+li{
+    /* list-style-type: square; */
+    list-style-position: inside; /* Dentro da propria tag ou fora. Por padrão é fora */
+    /* background-color: #eee; */
+    /* color: black; */
+}
+ul{
+    /* list-style-type: square; */
+    list-style-image: url('flecha.png');
+}
+a{
+    color: #ddd;
+    text-decoration: none;
+}
+a:hover{
+    /* hover é uma subclasse tag:subclasse, mouse sobre */
+    background-color: darkblue;
+    color: rgb(219, 219, 247);
+}
+/* a:link{ */
+    /* nunca foi clicado */
+    /* color: red; */
+/* } */
+/* a:visited{ */
+    /* ja foi visitado */
+    /* color: #999; */
+/* } */
+/* a:active{ */
+    /* no click, se segurar o clidk da para ver melhor */
+    /* color: aqua; */
+/* } */
