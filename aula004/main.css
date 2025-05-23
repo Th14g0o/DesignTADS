@@ -1,0 +1,24 @@
+ul{
+    text-align: center;
+    /* list-style-type: none; */
+    /* pode ser usado no ul ou li. */
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    padding: 1em;
+}
+a:hover{
+    background-color: #eee;
+}
+figure{
+    text-align: center;
+}
+img{
+    border: 1px solid black;
+    vertical-align: middle;
+    /* funciona para algumas tags especificas. Img é uma delas. */
+}
