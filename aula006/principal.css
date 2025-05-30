@@ -1,0 +1,29 @@
+* { /* Seletor universal, seleciona todas as tags presente no html*/
+    margin: 0; /* Espaçamento externo */
+    padding: 0; /* Espaçamento interno */
+}
+h1 {
+    margin: 5em;
+    border: 1px solid black;
+}
+body {
+    font-size: 2em;
+}
+section {
+    padding: 2em;
+}
+nav li { /* sendo mais especifico, formata apenas os li que estão dentro de um nav, especificidade */
+    display: inline-block; /* permite aos li ficarem um do lado do outro */
+    list-style-type: none;
+}
+nav li a {
+    display: inline-block; /* para o padding ser melhor aplicado, matem propensão natural do a de ficar lado a lado mas trata como blovl */
+    border: 1px solid #ddd;
+    padding: 1em 2em;
+    text-decoration: none;
+    color:black;
+}
+nav li a:hover{
+    background-color: black;
+    color: white;
+}
