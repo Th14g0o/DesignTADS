@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dda200;
+    font-style: italic;
+    font-weight: 1000;
+}
+section ul{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+p{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+

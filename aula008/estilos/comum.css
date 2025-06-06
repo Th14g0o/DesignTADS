@@ -1,0 +1,48 @@
+body{
+    background-color: #F9F1DC;
+    font-family: Garamond;
+    padding-bottom: 0;
+    margin: 0;
+}
+header{
+    background-color: #F2E2B7;
+    padding-top: 10px;
+    margin-bottom: 2em;
+    padding-bottom: 5px;
+}
+header nav, h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav li{
+    display: inline-block;
+}
+header nav li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #000;
+}
+header nav li a:hover{
+    color: #b68808;
+}
+header h1{
+    margin: 0 auto;
+    margin-right: 50%;
+}
+ul{
+    list-style-type: none;
+}
+ul.ladoLado{
+    padding-left: 0;
+}
+ul.ladoLado > li, header nav li{
+    display: inline-block;
+    margin: 0 0.5em;
+    margin-bottom: 1em;
+}
+
+footer address{
+    background-color: #FFF;
+    padding: 2em 0;
+    margin: 0;
+}
