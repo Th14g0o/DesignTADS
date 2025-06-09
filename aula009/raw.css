@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* quanto mais especifico mais prioridade */
+li.atual{
+    background-color: blueviolet;
+}
+
+.atual{
+    background-color: aqua;
+}
+/*  entre os dois acima ganha o mais especifico, mas se o caminho for igual ele pagaria o mais abaixo */
+
+/* o .atual chama a classe */
+li.atual a{
+    color: cadetblue;
+}
+
+table{
+    /* colapsa a borda, tira o espaçamento padrão */
+    border-collapse:collapse; 
+    /* o maximo que a largura se estende */
+    max-width: 70em;
+    /* margin no eixo y 0 e margin igualado no eixo x, centralizando */
+    margin: 0 auto;
+}
+td, th{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+/* pega tr impares de uma tag pai*/
+/* nth : enesimo, child : filho */
+/* valores: odd, even, numeros inteiros a partir de 1, equações */
+tr:nth-child(odd){
+    background-color: beige;
+}
