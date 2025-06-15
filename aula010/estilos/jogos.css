@@ -1,0 +1,35 @@
+header{
+    background-image: url(../imgs/geral/fundo-jogo-desktop.png);
+}
+main div{
+    background-color: #AE8A58;
+    display: inline-block;
+    border: 5px solid #604E36;
+    border-radius: 8px;
+    padding-bottom: 0.5em;
+    color: #000;
+    margin: 0.5em 1em;
+}
+main div picture img{
+    padding: 0.5em;
+}
+main hr{
+    border: none;
+    border-bottom: 5px solid #604E36;
+}
+main div h3, main div p, main div nav{
+    margin: 0 1em;
+}
+main div h3{
+    display: block;
+    margin-top: 0.5em;
+} 
+main nav ul li{
+    display: inline-block;
+}
+main section{
+    text-align: center;
+}
+main div{
+    text-align: left;
+}

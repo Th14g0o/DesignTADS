@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "MedievalSharp";
+    src: url("../fontes/MedievalSharp/MedievalSharp-Regular.ttf")
+}
+
+*{
+    font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #5C0909;
+    color: #FFF;
+}
+ol, ul{
+    list-style-type: none;
+}
+header section a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 2.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+header section{
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+header section h1{
+    width: 49%;
+}
+header section h1 a{
+    color: #FFF;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+header section h1 img{
+    vertical-align: middle;
+}
+header section h1 span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+header section nav{
+    width: 49%;
+    text-align:right;
+}
+header section nav, header section h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+header section ol li{
+    display: inline-block;
+}
+header section ol li:nth-child(2), header section ol li:nth-child(3){
+    margin: 5px 10px;
+}
+header section nav a{
+    color: #F8DB00;
+}
+header h2{
+    text-align: center;
+    margin-top: 70vh;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+main section > h3{
+    margin-bottom:0.5em;
+    font-size: 2em;
+}
+main section >  h3 img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+main section > h3 span{
+    display: inline-block;
+    vertical-align: middle;
+}
+main{
+    padding: 0 2em;
+}
+main section{
+    margin-bottom: 2em;
+}
+
+h3{
+    font-weight: normal;
+}
+body > hr{
+    margin-top: 2.5em;
+    border-color: #C39B17;
+}
+
+footer{
+    padding: 2em;
+}
+footer h4{
+    font-weight: normal;
+}
+footer b{
+    margin-right: 2px;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 0.5em;   
+}

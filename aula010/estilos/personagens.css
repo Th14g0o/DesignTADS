@@ -1,0 +1,25 @@
+header{
+    background-image: url(../imgs/geral/fundo-personagens-desktop.png);
+}
+main section picture{
+    display: block;
+    text-align: center;
+    
+}
+main section picture img{
+    border-top: 7px solid #C39B17;
+    border-bottom: 7px solid #C39B17;
+}
+main section h3{
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+main section p a{
+    display: block;
+    color: #F8DB00;
+    text-decoration: none;
+    font-size: 1.6em;
+    margin-top: 7px;
+} 
