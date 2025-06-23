@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale1.0" />
+    <title>Lades</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css">
+    <!-- Fora da aula -->
+    <style>
+        *{
+            font-family: Comic Sans MS, sans-serif;
+        }
+    </style>
+    <!--  -->
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">LADES</a></h1>
+        <!-- 
+            tabalha com envio de dados.
+            Podem ter varios forms em uma pagina.
+            Action: nome arquivo que recebe dados
+        -->
+        <form action="enviar.html">
+            <!-- label = rotolo, rotulo: apoio para indicar o que se deve inserir no input e se "liga" ao input. for: usa o id do input para localizar -->
+            <label for="pesquisa">Pesquisa:</label>
+            <!-- 
+                input: onde se insere algum dado para enviar. type: refere a que tipo de dado vai ser enviado e muda o comportamento visual do input.
+                id: serve para identificar o componente no back. 
+            -->
+            <input type="search" id="pesquisa" />
+            <!-- os tipos montam componentes. o type submit exibe um botão, com o texto do atributo value, que envia os dados para a pagina do action do form. -->
+            <input type="submit" value="Buscar" />
+        </form>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt minima ut inventore, libero corporis omnis possimus consectetur vitae sint facilis ipsam repudiandae, sequi voluptatibus aut iste, quas harum. Molestias, maxime.</p>
+        <form action="enviar.html">
+            <!-- <label for="nome">Nome:</label> opcional quanto tme placeholder -->
+            <!-- placeholder: ser para inserir no input um texto de apoio para indicar o que é para digitar. -->
+            <input type="text" id="nome" placeholder="Digite seu nome..."/><br/>
+            <!-- o atributo value n é exclusivo do submite, ele serve para inserir um valor inicial em outros input. -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" /><br/>
+            <label for="senha">Senha:</label>
+            <!-- required obriga valor no input -->
+            <input type="password" id="senha" required><br/>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, error fuga voluptas perspiciatis ducimus quis assumenda pariatur aspernatur odit neque optio laudantium, similique dolorem provident? Necessitatibus sint voluptas temporibus aliquid.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aspernatur impedit id asperiores hic ratione at repellat inventore blanditiis recusandae distinctio architecto quo voluptate excepturi natus harum praesentium, incidunt quas!</p>
+    </main>
+    <footer>
+        <p>Desenvolvido por IFRN</p>
+    </footer>
+</body>
+</html>
