@@ -14,13 +14,13 @@ form{
 }
 input {
     border: none;
+    border-bottom: 1px solid black;
     padding: 0.5em;
     margin-bottom: 0.5em;
-    border: 1px solid black;
     background-color: rgb(232, 241, 241);
 }
 /* evento quando se clica no input e deixa ele "marcado", "selecionado", dá um foco nele */
-input:focus {
+input:focus{
     /* borda externa ao elemento */
     outline: 2px solid cyan;
 }
@@ -29,6 +29,7 @@ input:hover {
 }
 /* seletor de input mais especifico. Muda todos de um tipo especifico */
 input[type="submit"]{
+    border: none;
     background-color: darkslategrey;
     color: white;
 }
