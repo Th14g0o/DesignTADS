@@ -5,62 +5,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="conteudo/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="conteudo/estilos/estilo.css">
+    <link rel="stylesheet" href="conteudo/estilos/menu.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Aula</th>
-            <th>Conteudo</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td><a href="aula001/index.html">Introdução HTML</a></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td><a href="aula002/index.html">Introdução ao CSS</a></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td><a href="aula003/index.html">Âncoras</a></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td><a href="aula004/index.html">Imagens</a></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td><a href="aula005/index.html">Background</a></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td><a href="aula006/index.html">IFRN - Mais tags adequadatas para organização</a></td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td><a href="aula007/index.html">Raw Comida Natural - Reprodução</a></td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td><a href="aula008/index.html">Raw Comida Natural - Evoluindo</a></td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td><a href="aula009/cardapio.html">Tabelas</a></td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td><a href="aula010/index.html">Atividade de interface</a></td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td><a href="aula011/index.html">Formularios</a></td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td><a href="aula012/index.html">Formularios - Continuação</a></td>
-        </tr>
-    </table>
+    <main>
+        <h1>Selecione uma opção</h1>
+        <button id="bt-cima" type="button"><img src="conteudo/imgs/seta_cima.svg" alt="Imagem indicando para cima"></button>
+        <nav>
+            <ol id="aulas">
+                <li><a href="aula001/index.html">Introdução <br> HTML</a></li>
+                <li><a href="aula002/index.html">Introdução <br> CSS</a></li>
+                <li><a href="aula003/index.html">Âncoras</a></li>
+                <li><a href="aula004/index.html">Imagens</a></li>
+                <li><a href="aula005/index.html">Background</a></li>
+                <li><a href="aula006/index.html">Tags para <br> organização</a></li>
+                <li><a href="aula007/index.html">Site Raw <br> Reprodução</a></li>
+                <li><a href="aula008/index.html">Site Raw <br> Atividade</a></li>
+                <li><a href="aula009/cardapio.html">Tabelas</a></li>
+                <li><a href="aula010/index.html">Atividade de <br> interface</a></li>
+                <li><a href="aula011/index.html">Formularios</a></li>
+                <li><a href="aula012/index.html">Formularios <br> Continuação</a></li>
+            </ol>
+        </nav>
+        <button id="bt-baixo"  type="button"><img src="conteudo/imgs/seta_baixo.svg" alt="Imagem indicando para baixo"></button>
+    </main>
+    <script src="conteudo/scripts/menu.js"></script>
 </body>
 </html>
