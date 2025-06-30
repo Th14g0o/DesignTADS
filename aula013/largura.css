@@ -1,0 +1,11 @@
+div{
+    background-color: aqua;
+    margin: 2em auto;
+    border: 1px solid black;
+    /* width: 70rem; */
+    /* em, pc, %, vm - rem mais indicado para responsividade */
+    /* min-width: 70rem;  */
+    /* ocupa o maximo possivel e diminui ate 70rem */
+    max-width: 70em;
+    /* ocupa ate 70em se precisar, e se adequa a diminuições */
+}

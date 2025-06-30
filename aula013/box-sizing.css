@@ -1,0 +1,13 @@
+div{
+    background-color: #ddd;
+    padding: 7em;
+    /* afeta a largura e altura no box sizing padrão */
+    box-sizing: border-box;
+    /* border box impede que o conteudo ultrapasse a largura e altura definida */
+    margin: 5em auto;
+    height: 20em;
+    width: 40em;
+    overflow: auto;
+    /* barra de rolagem interna, caso exceda largura ou altura */
+    box-shadow: 0 0 10px 5px rgb(229, 229, 229);
+}

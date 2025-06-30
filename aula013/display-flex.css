@@ -1,0 +1,15 @@
+main{
+    background-color: cadetblue;
+    margin: 2em auto;
+    max-width: 70rem;
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    /* alinha todos os elementos filhos na horizontal */
+    gap: 2em; 
+    /* espaçamento das caixinhas no flex, n aplica como margin, apenas descola os filhos */
+}
+section{
+    border: 1px solid black;
+    padding: 3em;
+}
