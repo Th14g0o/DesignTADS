@@ -1,0 +1,13 @@
+section{
+    border: 1px solid black;
+}
+
+figure, nav{
+    float: left;
+    border: 1px solid green;
+}
+
+nav{
+    border-radius: 50%;
+    width: 10em;
+}

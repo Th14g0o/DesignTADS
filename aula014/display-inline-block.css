@@ -1,0 +1,13 @@
+div{
+    background-color: chartreuse;
+    width: 20em;
+    padding: 2em;
+}
+span{
+    padding: 2em;
+    width: 20em;
+    background-color: deeppink;
+    /* por padrão o span(display inline) n permite modigar largura */
+    display: inline-block; 
+    /* inline-block permite, pois pega caracteristicas do block e do inline. Tenta colocar lado a lado, mas permite usar width e padding */
+}

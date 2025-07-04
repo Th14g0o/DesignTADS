@@ -1,0 +1,24 @@
+section{
+    display: flex;
+    /* permite que os filhos fiquem lado a lado */
+    justify-content: space-between;
+    /* 
+        alinha os filhos flex na horizontal
+        center centraliza 
+        space-between: distribui de uma ponta a outra
+    */
+
+    gap: 2em;
+    /* espaçamento entre os elemetos */
+    /* column-gap: 5em; vertical */
+    /* row-gap: ; row*/
+    flex-wrap: wrap;
+    /* quebra linha se os filhos exederem a largura da tag pai */
+    margin: 2em auto;
+    max-width: 70em;
+    background-color: #ddd;
+}
+div{
+    border: 1px solid deepskyblue;
+    width: 25em;
+}
