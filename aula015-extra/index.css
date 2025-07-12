@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol{list-style-type: none;}
+button[type="button"]{
+    cursor: pointer;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+}
+header{
+    background-color: #487979;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 2em;
+}
+header h1{
+    margin-bottom: 1em;
+}
+header h1 a{
+    text-decoration: none;
+    color: #000;
+}
+header nav ol li{
+    margin-bottom: 1em;
+}
+header nav ol li a{
+    text-decoration: none;
+    color: #FFF;
+}
+main{
+    width: 100%;
+}
+section form select{
+    outline: none;
+    border: none;
+    color: rgb(85, 26, 139);
+    text-decoration: underline;
+}
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 2em;
+    width: 100%;
+}
+main section:nth-child(1){
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+main section:nth-child(2){
+    gap: 1em 2%;
+    padding-top: 0;
+    padding-right: 10%;
+}
+main section h2{
+    width: 100%;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+main section div{
+    box-sizing: border-box;
+    width: 160px;
+    border: 1px solid #D4D4D4;
+}
+main section div p{
+    box-sizing: border-box;
+}
+main section div a{
+    display: block;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 3.5em;
+    background-color: #EEE;
+    box-sizing: border-box;
+}
+
+main section div ol{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+    padding-top: 2em;
+}
+main section div ol button{
+    background-color: transparent;
+    border: none;
+}
