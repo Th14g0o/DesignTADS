@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 85rem;
+    /* largura que precisa ser analisada com bas eno usaurio */
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+section h2{
+    background-color: cadetblue;
+    flex-basis: 100%; 
+    /* define largura do item flex */
+}
+section div{
+    flex-basis: 20%;
+    border: 1px solid #ddd;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 2rem;
+}
+section figure{
+    text-align: center;
+}
