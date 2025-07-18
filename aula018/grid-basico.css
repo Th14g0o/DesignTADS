@@ -1,0 +1,29 @@
+main{
+    display: grid;
+    grid-template-areas: 
+        "y x"
+        "z x"
+    ;
+      /* "x y"
+      "x z"; */
+      /* cria "tabelinha". define como section vão se organizar, o x(section.a) vai pegar duas "linhas" */
+}
+section{
+    border: 1px solid black;
+}
+section.a{
+    grid-area: x;
+    /* define variavel para elemento. Não pode utilizar numero no inicio */
+    /* um caractere ajuda no visual da organização, tipo:
+        "c x"
+        "t e"
+    ocupam o mesmo espaço, já nomes são variados em tamamho:
+        "item julhao"
+        "select cleberson"*/
+}
+section.b{
+    grid-area: y;
+}
+section.c{
+    grid-area: z;
+}

@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    grid-template-areas:
+        "nav x" 
+        "nav y"
+        "w   w"
+        "z   z"
+    ;
+    /* 
+        Não pode ter nenhum item(filho) fora da matriz. 
+        Não pode fazer mesclagem diagonal.
+        Não pode fazer mesclagem em l.
+     */
+}
+nav{
+    grid-area: nav;
+}
+section, nav{
+    border: 1px solid black;
+}
+section.a{
+    grid-area: x;
+}
+section.b{
+    grid-area: y;
+}
+section.c{
+    grid-area: z;
+}
+section.d{
+    grid-area: w;
+}

@@ -1,0 +1,41 @@
+main{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 5rem 15rem 5rem; 
+    /* define altura da linha */
+    /* fracionado, define largura das colunas, tem que seguir a qtd de colunas no template-areas. Pode ser trabalhado com outras unidades.
+    fr: 1/4, 2/4, 1/4 */
+    grid-template-areas:
+        "x y nav" 
+        "x z nav"
+        "w w nav"
+    ;
+    /* 
+        Não pode ter nenhum item(filho) fora da matriz. 
+        Não pode fazer mesclagem diagonal.
+        Não pode fazer mesclagem em l.
+     */
+}
+nav{
+    grid-area: nav;
+}
+section, nav{
+    border: 1px solid black;
+}
+section.a{
+    grid-area: x;
+}
+section.b{
+    grid-area: y;
+}
+section.c{
+    grid-area: z;
+    overflow: auto;
+    /* caso aja necessidade de mais espaço do que foi definido no template-rows */
+}
+section.d{
+    grid-area: w;
+}
