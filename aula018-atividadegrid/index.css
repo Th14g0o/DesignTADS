@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+header{
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+    color: #FFF;
+    padding: 1.5em 1em;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+header p{
+    font-size: 1.3em;
+}
+
+main{
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 1.2fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+      "links sobre progr progr amand"
+      "links lista inscr natal henri"
+      "links laris inscr organ organ"
+    ;
+    width: 100%;
+}
+section{
+    background-color: #ECECEC;
+    padding: 1.5em;
+    overflow: auto;
+}
+section ul{
+    margin: 0 1em;
+}
+section ul li{
+    margin-bottom: 0.5em;
+}
+
+.palestrante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.palestrante h2{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 1em;
+}
+
+#links{
+    grid-area: links;
+    background-color: #C4D0D9;
+    font-size: 2em;
+}
+#links ol{
+    list-style: none;
+}
+#links ol li{
+    margin-bottom: 1.3em;
+}
+#links ol li a{
+    text-decoration: none;
+    color: #32738B;
+}
+
+#sobre{
+    grid-area: sobre;
+}
+#sobre{
+    line-height: 2em;
+}
+#sobre b{
+    font-weight: normal;
+    color:#214458;
+}
+#sobre button{
+    background-color: transparent;
+    border: none;
+    margin-top: 0.5em;
+}
+#sobre a{
+    text-decoration: none;
+    color:#214458;
+    border:  1px solid #214458;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+#programacao{
+    grid-area: progr;
+}
+#programacao h2{
+    margin-bottom: 0.5em;
+}
+#programacao table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#programacao table td{
+    border: 1px solid #FFF;
+    padding: 5px;
+    padding-left: 3em;
+}
+#programacao table td.hora{
+    padding-left: 0;
+    text-align: center;
+}
+
+#amanda{
+    grid-area: amand;
+    background-image: url(imgs/palestrantes/amanda.png);
+}
+#lista{
+    grid-area: lista;
+}
+#inscricao{
+    grid-area: inscr;
+}
+#inscricao h2{
+    margin-bottom: 0.8em;
+}
+input[type="text"], input[type="email"], input[type="submit"]{
+    display: block;
+    margin-bottom: 1.5em;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 0.5em;
+}
+label{
+    display: flex;
+    align-content: center;
+    margin-bottom: 1.5em;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    padding: 1em 5em;
+    margin: 0 auto;
+    background-color: #000;
+    color: #707071;
+}
+
+#natalia{
+    grid-area: natal;
+    background-image: url(imgs/palestrantes/georgia.png);
+}
+#henrique{
+    grid-area: henri;
+    background-image: url(imgs/palestrantes/henrique.png);
+}
+#larissa{
+    grid-area: laris;
+    background-image: url(imgs/palestrantes/ellen.png);
+}
+#organizacao{
+    grid-area: organ;
+}
+#organizacao h2{
+    margin-bottom: 0.7em;
+}
+#organizacao p{
+    margin-bottom: 0.5em;
+}
+
+footer{
+    background-color:#224459;
+    text-align: center;
+    color: #FFF;
+    padding: 3.5em 0;
+    margin-top: 0.5em;
+    width: 100%;
+}
