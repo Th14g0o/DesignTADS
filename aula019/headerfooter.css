@@ -17,7 +17,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em 2em;
 }
 nav > ul{
     list-style-type: none;
@@ -27,11 +27,14 @@ nav > ul{
     margin-right: 1em;
     position: relative;
 }
+nav > ul li a{
+    color: #FFF;
+}
 nav > ul ul{
     position: absolute;
     background-color: cornflowerblue;
     display: block;
-    max-width: 10rem;
+    width: 10rem;
     padding: 2em;
 
 }
