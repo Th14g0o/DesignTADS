@@ -1,0 +1,44 @@
+* {
+    font-family: Comic Sans MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol{
+    list-style-type: none;
+}
+nav > ol{
+    position: relative;
+}
+nav > ol > li{
+    display: inline-block;
+}
+nav > ol > li > p, nav > ol > li > a{
+    color: #FFF;
+    text-decoration: underline;   
+    cursor: pointer;
+    background-color: rgb(95, 158, 160);
+    padding: 1em 2em;
+    
+}
+
+.submenu-visibility{
+    visibility: hidden;
+}
+.submenu-visibility p{
+    visibility: visible;
+}
+.submenu-visibility ol{
+    position: absolute;
+    background-color: rgb(95, 158, 160);
+    margin-top: 1px;
+    padding: 1em;
+}
+.submenu-visibility ol li a{
+    color: #FFF;
+}
+
+.submenu-visibility:hover{
+    visibility: visible;
+}
