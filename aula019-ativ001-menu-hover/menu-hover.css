@@ -5,22 +5,25 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 10px;
+}
+
 ol{
     list-style-type: none;
 }
-nav > ol{
-    position: relative;
-}
-nav > ol > li{
+nav  > ol >  li{
     display: inline-block;
-}
-nav > ol > li > p, nav > ol > li > a{
+    margin-bottom: 0.5em;
+} 
+
+nav  ol  li  p, nav  ol  li  a{
+    display: block;
     color: #FFF;
     text-decoration: underline;   
     cursor: pointer;
     background-color: rgb(95, 158, 160);
     padding: 1em 2em;
-    
 }
 
 .submenu-visibility{
@@ -31,14 +34,13 @@ nav > ol > li > p, nav > ol > li > a{
 }
 .submenu-visibility ol{
     position: absolute;
-    background-color: rgb(95, 158, 160);
-    margin-top: 1px;
-    padding: 1em;
+    padding-top: 0.5em;
+    margin-left: 25px;
 }
 .submenu-visibility ol li a{
-    color: #FFF;
+    display: inline-block;
+    margin-bottom: 0.5em;
 }
-
 .submenu-visibility:hover{
     visibility: visible;
 }
